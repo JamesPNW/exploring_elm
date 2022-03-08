@@ -83,7 +83,7 @@ supportedLetters =
 
 supportedEmojis : List String
 supportedEmojis =
-    [ "🍎"
+    [ "😁"
     , "😂"
     , "😃"
     , "😄"

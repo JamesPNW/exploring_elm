@@ -67,7 +67,7 @@ view model =
                 [ class "nav-wrapper light-blue lighten-2" ]
                 [ div
                     [ class "brand-logo center" ]
-                    [ text "Rolito's Awesome Elmoji Translator" ]
+                    [ text "Elmoji Translator" ]
                 ]
             ]
         , section
@@ -77,7 +77,7 @@ view model =
                 [ input
                     [ type_ "text"
                     , class "center"
-                    , placeholder "What do you want to translate?"
+                    , placeholder "Let's Translate!"
                     , onInput SetCurrentText
                     ]
                     []
