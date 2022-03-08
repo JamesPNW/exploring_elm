@@ -57,14 +57,14 @@ update msg model =
 
 view : Model -> Html Msg
 view model =
-    div
+    button
         [ class "skeleton-elm-project" ]
         [ node "link"
             [ rel "stylesheet"
             , href "stylesheets/main.css"
             ]
             []
-        , div
+        , button
             [ class "waves-effect waves-light btn-large"
             , onClick ChangeText
             ]

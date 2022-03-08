@@ -72,7 +72,7 @@ view model =
                 [ class "nav-wrapper light-blue lighten-2" ]
                 [ div
                     [ class "brand-logo center" ]
-                    [ text "Elmoji Translator" ]
+                    [ text "Braille Translator" ]
                 ]
             ]
         , section
@@ -82,7 +82,7 @@ view model =
                 [ input
                     [ type_ "text"
                     , class "center"
-                    , placeholder "Let's Translate!"
+                    , placeholder "Translate Text To Braille"
                     , onInput SetCurrentText
                     ]
                     []
