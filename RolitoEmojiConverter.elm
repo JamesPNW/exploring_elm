@@ -1,4 +1,4 @@
-module EmojiConverter exposing (emojiToText, supportedEmojis, textToEmoji)
+module RolitoEmojiConverter exposing (emojiToText, supportedEmojis, textToEmoji)
 
 import Dict
 import List.Extra
