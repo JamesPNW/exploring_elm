@@ -45,10 +45,10 @@ update msg model =
     case msg of
         ChangeText ->
             if model.buttonLabel == "hello world!" then
-                { model | buttonLabel = "goodbye world!" }
+                { model | buttonLabel = "goodbye James!" }
 
             else
-                { model | buttonLabel = "hello world!" }
+                { model | buttonLabel = "hello James!" }
 
 
 
