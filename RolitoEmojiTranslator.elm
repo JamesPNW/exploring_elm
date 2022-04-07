@@ -46,7 +46,7 @@ init =
 
 defaultKey : String
 defaultKey =
-    "😳"
+    "🍎"
 
 
 
