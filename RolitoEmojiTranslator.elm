@@ -104,11 +104,11 @@ view model =
             , href "stylesheets/main.css"
             ]
             []
-        , nav
+        , header
             []
             [ div
                 [ class "nav-wrapper light-blue lighten-2" ]
-                [ div
+                [ h1
                     [ class "brand-logo center" ]
                     [ text "Elmoji Translator" ]
                 ]
@@ -150,7 +150,7 @@ view model =
             []
         , section
             [ class "container" ]
-            [ h4
+            [ h2
                 [ class "center" ]
                 [ text "Select Your Key" ]
             , renderKeys model
