@@ -8441,3 +8441,10 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 ::-ms-input-placeholder { /* Microsoft Edge */
   color: #737373;
 }
+
+/**
+ * Center footer
+ */
+ footer {
+  text-align: center;
+}

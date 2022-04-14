@@ -37,7 +37,21 @@ defaultKey : String
 defaultKey =
     "😳"
 
+linkToAph = 
 
+  a [ href "https://www.aph.org/accessibility-solutions/" ] [ text "American Printing House" ] 
+
+  
+
+content link = 
+
+  p [ ] 
+
+    [ text "Send braille to " 
+
+    , link 
+
+    ] 
 
 -- UPDATE
 
@@ -90,6 +104,12 @@ view model =
             , p
                 [ class "center output-text emoji-size" ]
                 [ text (translateText model) ]
+            ]
+            , footer
+            []
+            [ div
+                [ class "content" ]
+                    [ content linkToAph ]
             ]
         ]
 
