@@ -48,7 +48,21 @@ defaultKey : String
 defaultKey =
     "🍎"
 
+linkToAph = 
 
+  a [ href "https://www.aph.org/accessibility-solutions/" ] [ text "American Printing House" ] 
+
+  
+
+content link = 
+
+  p [ ] 
+
+    [ text "Send braille to " 
+
+    , link 
+
+    ] 
 
 -- UPDATE
 
@@ -140,6 +154,12 @@ view model =
                 [ class "center" ]
                 [ text "Select Your Key" ]
             , renderKeys model
+            ]
+            , footer
+            []
+            [ div
+                [ class "content" ]
+                [ content linkToAph ]
             ]
         ]
 
