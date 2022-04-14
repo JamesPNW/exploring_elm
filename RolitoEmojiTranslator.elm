@@ -50,7 +50,7 @@ defaultKey =
 
 linkToAph = 
 
-  a [ href "https://www.aph.org/accessibility-solutions/" ] [ text "American Printing House" ] 
+  a [ href "https://emojifinder.com/" ] [ text "Emoji Finder" ] 
 
   
 
@@ -58,7 +58,7 @@ content link =
 
   p [ ] 
 
-    [ text "Send braille to " 
+    [ text "Go to " 
 
     , link 
 
