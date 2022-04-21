@@ -110,7 +110,7 @@ view model =
                 [ class "nav-wrapper light-blue lighten-2" ]
                 [ h1
                     [ class "brand-logo center" ]
-                    [ text "Elmoji Translator" ]
+                    [ text "Rolito's Elmoji Translator" ]
                 ]
             ]
         , section
